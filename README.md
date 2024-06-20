@@ -34,7 +34,14 @@ const initialReposLink = [
 ];
 ```
 
-3. Run the script:
+3. Update the `initialDate` and `finalDate` variables in the script to match the date range you want to check. **These dates should be in UTC**.
+
+```javascript
+const initialDate = new Date("2024-06-14T10:15:00Z"); // Hackathon starting time
+const finalDate = new Date("2024-06-16T03:15:00Z");   // Hackathon ending time
+```
+
+4. Run the script:
 
 ```bash
 node index.js
